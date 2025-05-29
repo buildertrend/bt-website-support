@@ -9,9 +9,9 @@ require plugin_dir_path(dirname(__FILE__)) . 'plugin-update-checker/plugin-updat
 use YahnisElsts\PluginUpdateChecker\v5\PucFactory;
 
 $updateChecker = PucFactory::buildUpdateChecker(
-	'https://github.com/buildertrend/bt-pro-websites',
-	plugin_dir_path(dirname(__FILE__)) . 'bt-pro-websites.php',
-	'bt-pro-websites'
+	'https://github.com/buildertrend/bt-website-support',
+	plugin_dir_path(dirname(__FILE__)) . 'bt-website-support.php',
+	'bt-website-support'
 );
 
 // Required for private repos:
