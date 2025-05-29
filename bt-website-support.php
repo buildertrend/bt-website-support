@@ -2,7 +2,7 @@
 /*
 Plugin Name: Buildertrend Pro Websites Support
 Description: Our required plugin for website support. 
-Version: 1.0.0
+Version: 1.0.1
 Author: BT Pro Websites Team
 License: GPLv2 or later
 Plugin URI:        https://github.com/buildertrend/bt-pro-websites
