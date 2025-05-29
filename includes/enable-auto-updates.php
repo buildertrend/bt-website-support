@@ -7,9 +7,9 @@ if (!defined('ABSPATH')) {
 /**
  * Enable auto-updates for this plugin
  */
-function bt_pro_websites_enable_auto_updates()
+function bt_website_support_enable_auto_updates()
 {
-	$plugin_file = plugin_basename(dirname(__DIR__) . '/bt-pro-websites.php');
+	$plugin_file = plugin_basename(dirname(__DIR__) . '/bt-website-support.php');
 
 	// For WordPress 5.5 and later
 	if (
@@ -28,4 +28,4 @@ function bt_pro_websites_enable_auto_updates()
 		}, 10, 2);
 	}
 }
-add_action('admin_init', 'bt_pro_websites_enable_auto_updates');
+add_action('admin_init', 'bt_website_support_enable_auto_updates');
